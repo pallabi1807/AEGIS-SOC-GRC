@@ -125,7 +125,7 @@ This project is a practical demonstration and is not presented as a production-r
 
 The full project report will document the architecture, implementation, security workflows, testing, and project outcomes.
 
-**Project report:** [View the AEGIS-SOC-GRC Project Report]`docs/AEGIS-SOC-GRC Reports.pdf`
+**Project report:** [View the AEGIS-SOC-GRC Project Report](docs/AEGIS-SOC-GRC%20Reports.pdf)
 
 These links will work once the corresponding files have been added to the repository.
 
@@ -153,4 +153,6 @@ Cybersecurity Enthusiast | MCA Student
 - GitHub: Add your GitHub profile URL here.
 
 ---
+
+
 
