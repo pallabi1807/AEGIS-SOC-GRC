@@ -123,7 +123,7 @@ This project is a practical demonstration and is not presented as a production-r
 
 ## Project Documentation
 
-The full project report will document the architecture, implementation, security workflows, testing, and project outcomes.
+The project report provides detailed documentation of the architecture, implementation, security workflows, testing, and outcomes.
 
 **Project report:** [View the AEGIS-SOC-GRC Project Report](docs/AEGIS-SOC-GRC%20Reports.pdf)
 
