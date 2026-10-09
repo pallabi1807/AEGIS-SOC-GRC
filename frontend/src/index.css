@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  color: #172033;
+  background: #f4f8fc;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+
+  --aegis-blue: #2563eb;
+  --aegis-blue-dark: #1e40af;
+  --aegis-cyan: #0891b2;
+  --aegis-teal: #0f766e;
+
+  --background: #f4f8fc;
+  --surface: #ffffff;
+  --surface-soft: #f8fbfe;
+
+  --border: #dce6f0;
+  --border-light: #e8eef5;
+
+  --text-primary: #172033;
+  --text-secondary: #64748b;
+  --text-muted: #94a3b8;
+
+  --success: #16a34a;
+  --warning: #ca8a04;
+  --high: #ea580c;
+  --critical: #dc2626;
+
+  --shadow-sm: 0 2px 8px rgba(30, 64, 175, 0.05);
+  --shadow-md: 0 8px 24px rgba(30, 64, 175, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+body {
+  background:
+    radial-gradient(
+      circle at 75% 5%,
+      rgba(37, 99, 235, 0.06),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at 15% 90%,
+      rgba(8, 145, 178, 0.05),
+      transparent 25%
+    ),
+    var(--background);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

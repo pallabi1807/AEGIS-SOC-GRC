@@ -1,0 +1,20 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: aegis-postgres
+
+    environment:
+      POSTGRES_DB: aegis
+      POSTGRES_USER: aegis_admin
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in the root .env file}
+
+    ports:
+      - "5433:5432"
+
+    volumes:
+      - aegis_postgres_data:/var/lib/postgresql/data
+
+    restart: unless-stopped
+
+volumes:
+  aegis_postgres_data:

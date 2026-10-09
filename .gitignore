@@ -1,0 +1,42 @@
+# Python
+.venv/
+**/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Node / React
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+coverage/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Database backups
+*.dump
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db
+# Confidential organizational evidence — never publish
+/backend/account_lockout_auth_monitoring_evidence.txt
+/backend/mfa_configuration_evidence.txt
+/backend/evidence_artifacts/
